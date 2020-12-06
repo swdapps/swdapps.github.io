@@ -1,2 +1,2 @@
-# swdapps.github.io
-My apps
+# blairsuth.github.io
+Lift app
