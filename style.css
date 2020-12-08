@@ -2,6 +2,11 @@ body {
   width: 375px;
   height: 667px;
   margin: auto;
+  font-size: 16px;
+}
+input,
+select {
+  font-size: 100%;
 }
 .header {
   position: relative;
