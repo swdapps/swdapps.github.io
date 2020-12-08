@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0,user-scalable=0"/>
   <link rel="stylesheet" href="style.css">
   <title>Sign Up</title>
 </head>
@@ -14,8 +14,12 @@
       <p class="content">Welcome to the LIFT app. Let’s get started by filling out the form below.</p>
     </div>
     <div class="signup-form">
-<form action="">
-<input class="primary-input" type="text" placeholder="Name">
+<form class="form-wrapper" action="action-page.php" method="GET">
+<input class="primary-input" type="text" placeholder="First Name">
+<input class="primary-input" type="text" placeholder="Last Name">
+<input class="primary-input" type="email" placeholder="Email">
+<input class="primary-input" type="text" placeholder="Password">
+<input class="btn-primary" type="submit" placeholder="submit">
 </form>
 
     </div>
